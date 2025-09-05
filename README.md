@@ -5,11 +5,11 @@
 Description: A relational database designed to manage bike rentals. It tracks users, bikes, and transactions. The project demonstrates database design, table creation, data insertion, and data retrieval using SQL queries.
 
 This document contains the following sections:
-•	Schema design
-•	Entity Relationship Diagram
-•	Creation of tables using SQL
-•	Insertion of realistic sample data
-•	Retrieval of data using SQL queries (joins, aggregations, filters)
+- Schema design
+- Entity Relationship Diagram
+- Creation of tables using SQL
+- Insertion of realistic sample data
+- Retrieval of data using SQL queries (joins, aggregations, filters)
 
 This project is intended as a portfolio showcase to demonstrate end-to-end database management skills.
 
@@ -23,31 +23,31 @@ Primary Key
 Foreign Key
 
 The database consists of three main entities:
-•	USERS – People who will register and use the service
-•	BIKES – Details of the bike inventory the company owns
-•	TRANSACTIONS – Details of usage of bike and its related income
+- USERS – People who will register and use the service
+- BIKES – Details of the bike inventory the company owns
+- TRANSACTIONS – Details of usage of bike and its related income
 Second, we define attributes
 USERS - Stores details about users of the bike rental system
-•	userid – It determines unique user
-•	name – name of user
-•	age – age of user
-•	gender – gender of user
-•	email – email of user
+- userid – It determines unique user
+- name – name of user
+- age – age of user
+- gender – gender of user
+- email – email of user
 BIKES - Stores details about bikes available for rent
-•	bikeid – Unique bike identification number
-•	biketype – Type of bikes
-•	bikerental – Rental of bike (per hour)
+- bikeid – Unique bike identification number
+- biketype – Type of bikes
+- bikerental – Rental of bike (per hour)
 TRANSACTIONS - Stores details about all transactions done
-•	transactionid – transaction number
-•	userid
-•	bikeid
-•	transactiondate – date of transaction
-•	paymentmode – which payment mode was used
-•	totalamount – total amount for ride
+- transactionid – transaction number
+- userid
+- bikeid
+- transactiondate – date of transaction
+- paymentmode – which payment mode was used
+- totalamount – total amount for ride
 
 ## Relationships:
-•	One User can have many Transactions → 1:N
-•	One Bike can appear in many Transactions → 1:N
+- One User can have many Transactions → 1:N
+- One Bike can appear in many Transactions → 1:N
 
 
 ## Creation of table
