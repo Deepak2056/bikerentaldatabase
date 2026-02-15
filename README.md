@@ -78,9 +78,7 @@ CREATE TABLE Transactions (
 
 ## Inserting data into table
 INSERT INTO Users (Name, Age, Gender, Email, Phone)
-VALUES ('Ramesh',29,'M','ramesh@gmail.com','9089009988'),
-('Suresh',46,'M','suresh@gmail.com','0998877665'),
-('Ananya Das', 44, 'Female', 'ananya.das69@gmail.com', '9844362061'),('Aanya Chopra', 42, 'Female', 'aanya.chopra58@yahoo.com', '9174012568'),('Kunal Bose', 24, 'Male', 'kunal.bose70@gmail.com', '9668123617'),('Priya Kapoor', 25, 'Female', 'priya.kapoor66@yahoo.com', '9175732885'),('Ananya Das', 24, 'Female', 'ananya.das21@gmail.com', '9172321079'),('Aarav Verma', 31, 'Male', 'aarav.verma83@outlook.com', '9254536123'),('Sneha Reddy', 27, 'Female', 'sneha.reddy47@hotmail.com', '9821345670'),('Rahul Nair', 40, 'Male', 'rahul.nair32@gmail.com', '9765432109'),('Diya Sharma', 23, 'Female', 'diya.sharma15@yahoo.com', '9192837465'),('Arjun Patel', 35, 'Male', 'arjun.patel27@outlook.com', '9845671234'),('Neha Kapoor', 29, 'Female', 'neha.kapoor91@gmail.com', '9918273645'),('Rohan Iyer', 38, 'Male', 'rohan.iyer45@hotmail.com', '9876543021'),('Pooja Chopra', 26, 'Female', 'pooja.chopra33@gmail.com', '9745612389'),('Krishna Das', 41, 'Male', 'krishna.das77@yahoo.com', '9654321870'),('Kavya Bose', 30, 'Female', 'kavya.bose56@outlook.com', '9938456721'),('Siddharth Nair', 28, 'Male', 'siddharth.nair14@gmail.com', '9876123450'),('Ritika Verma', 22, 'Female', 'ritika.verma61@yahoo.com', '9182763459'),('Vikram Sharma', 45, 'Male', 'vikram.sharma19@hotmail.com', '9867543210'),('Isha Reddy', 21, 'Female', 'isha.reddy38@gmail.com', '9291873645'),('Vivaan Kapoor', 36, 'Male', 'vivaan.kapoor84@outlook.com', '9756123489');
+VALUES (Data hidden for privacy reasons);
 
 INSERT INTO Bikes (BikeType,RentalRate)
 ('Electric', 15.50),('Mountain', 20.00),('Road', 18.00),('Hybrid', 17.50),('Sports', 22.00),('City', 14.00),('Electric', 16.00),('Mountain', 19.50),('Road', 18.50),('Hybrid', 17.00);
